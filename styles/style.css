@@ -136,9 +136,9 @@ header {
   background-color: #fff4d6;
   border-radius: 5px;
 }
-.plan-items img{
-    padding-top: 64px;
-    padding-left: 22px;
+.plan-items img {
+  padding-top: 64px;
+  padding-left: 22px;
 }
 .plan-title {
   font-size: 24px;
@@ -155,5 +155,64 @@ header {
   padding-left: 22px;
   padding-bottom: 60px;
 }
-
-
+/* Contribute Section styls */
+.contribute {
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 130px;
+}
+.contribute-items {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.item-info .title {
+  font-family: "Inter", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #121212;
+  margin-bottom: 20px;
+}
+.item-info .description {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #707070;
+  margin-bottom: 20px;
+}
+.item-info .sub-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #707070;
+  margin-bottom: 20px;
+}
+.contribute img {
+  margin: 0 auto;
+  max-width: 1000px;
+  max-height: 1000px;
+  width: 456px;
+  height: 477px;
+  padding-right: 50px;
+  /* border-radius: 10%; */
+}
+/* Update Styles */
+.updates{
+    margin: 0 250px;
+    text-align: center;
+}
+.updates .section-description{
+    margin-top: 20px;
+}
+.email{
+    display: flex;
+    gap: none;
+    justify-content: center;
+    align-items: center;
+    background-color:#FFF4D6;
+    padding: 75px 190px;
+}
+.email input{
+    padding: 14px 218px 14px 12px;
+    color: #707070 ;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
